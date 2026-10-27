@@ -1,0 +1,586 @@
+{
+  "generatedAt": "2026-10-26T14:10:48.443Z",
+  "mode": "demo-mechanism-check",
+  "provider": null,
+  "model": null,
+  "note": "Demo ignores freeform prompts. This verifies paired evaluation plumbing, not LLM prompt effectiveness.",
+  "maxPlies": 30,
+  "results": [
+    {
+      "label": "主动施压",
+      "prompt": "优先尽快造成伤害。接近敌人，用冲锋与攻击压制；生命低于30%时使用药剂。只在无法攻击且能量不足时防御。",
+      "completed": 2,
+      "wins": 2,
+      "winRate": 1,
+      "totalTokens": 0,
+      "matches": [
+        {
+          "id": "49e4e49a-977e-43dd-ae62-720d188985e4",
+          "seed": 100,
+          "status": "completed",
+          "winner": 0,
+          "tokens": 0,
+          "latencyMs": 5,
+          "actions": [
+            {
+              "action": {
+                "type": "move",
+                "x": 2,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 4,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 3,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "attack",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 0,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 1,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            }
+          ]
+        },
+        {
+          "id": "69d64441-7656-4853-8bed-cf71ce27edf3",
+          "seed": 101,
+          "status": "completed",
+          "winner": 0,
+          "tokens": 0,
+          "latencyMs": 0,
+          "actions": [
+            {
+              "action": {
+                "type": "move",
+                "x": 2,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 4,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 3,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "attack",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 0,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 1,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "资源与生存",
+      "prompt": "谨慎观察，利用掩体接近远程敌人。优先保护生命，低于60%使用药剂；合理用护盾抵消爆发，等待合适时机冲锋。避免浪费移动和资源。",
+      "completed": 2,
+      "wins": 2,
+      "winRate": 1,
+      "totalTokens": 0,
+      "matches": [
+        {
+          "id": "608ef402-8997-4b20-9660-6476f8595c46",
+          "seed": 100,
+          "status": "completed",
+          "winner": 0,
+          "tokens": 0,
+          "latencyMs": 0,
+          "actions": [
+            {
+              "action": {
+                "type": "move",
+                "x": 2,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 4,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 3,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "attack",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 0,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 1,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            }
+          ]
+        },
+        {
+          "id": "23924805-0d67-4b3f-926d-0f08985d5215",
+          "seed": 101,
+          "status": "completed",
+          "winner": 0,
+          "tokens": 0,
+          "latencyMs": 0,
+          "actions": [
+            {
+              "action": {
+                "type": "move",
+                "x": 2,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 4,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 3,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "attack",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 0,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 1,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 2,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 6,
+                "y": 3,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "move",
+                "x": 5,
+                "y": 4,
+                "intent": "调整距离与视线，争取有利位置。"
+              },
+              "tokens": 0
+            },
+            {
+              "action": {
+                "type": "use_skill",
+                "skillId": "charge",
+                "intent": "根据可用技能、射程与生命状态行动。"
+              },
+              "tokens": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
